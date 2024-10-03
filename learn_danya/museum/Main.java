@@ -5,6 +5,7 @@ package museum;
 public class Main {
     public static void main(String[] args) {
         Artifact1 artifact1 = new Artifact1(21);
+        String jopa = artifact1.getJopa();
         artifact1.artifactPerv();
         Artifact2 artifact2 = new Artifact2(12, "Малазия");
         artifact2.artifactPerv();
